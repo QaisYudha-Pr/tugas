@@ -9,7 +9,8 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'public/build', // Pastikan output ada di sini
-        emptyOutDir: true, // Membersihkan folder sebelum build baru
+        outDir: 'public/build',
+        emptyOutDir: true,
     },
+    base: '/', // Pastikan base path benar
 });
